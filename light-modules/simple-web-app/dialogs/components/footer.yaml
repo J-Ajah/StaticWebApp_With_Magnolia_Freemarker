@@ -1,0 +1,28 @@
+# Automatically generated dialog with few most often used fields (text, right, link, DAM image, multivalue, link to app, select). Feel free to modify them for your specific component.
+
+label: footer
+form:
+  properties:
+    title:
+      $type: textField
+      label: title
+      i18n: true
+    commentTitle:
+      $type: textField
+      label: commentTitle
+      i18n: true
+    comment:
+      $type: richTextField
+      label: Comment
+      i18n: true
+    contactTitle:
+      $type: textField
+      label: ContactTitle
+      i18n: true
+    contactDetails:
+      $type: richTextField
+      label: Contact Info
+      i18n: true
+
+    
+

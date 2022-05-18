@@ -1,0 +1,18 @@
+label: offer
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+      i18n: true
+    offerTitle:
+      $type: textField
+      label: offerTitle
+      i18n: true
+    info:
+      $type: richTextField
+      label: information
+      i18n: true
+    image:
+      label: Image
+      $type: damLinkField

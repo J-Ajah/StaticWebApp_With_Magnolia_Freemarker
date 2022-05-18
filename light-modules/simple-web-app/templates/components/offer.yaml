@@ -1,0 +1,4 @@
+title: offer
+renderType: freemarker
+templateScript: /simple-web-app/templates/components/offer.ftl
+dialog: simple-web-app:components/offer

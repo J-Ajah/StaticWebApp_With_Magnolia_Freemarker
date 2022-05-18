@@ -1,0 +1,25 @@
+# Automatically generated dialog with few most often used fields (text, right, link, DAM image, multivalue, link to app, select). Feel free to modify them for your specific component.
+
+label: header
+form:
+  properties:
+    name:
+      $type: textField
+      label: pagesName
+      i18n: true
+    pagesName:
+      $type: textField
+      label: pagesLogoText
+      i18n: true
+    navText1:
+      $type: textField
+      label: navText1
+      i18n: true
+    navText2:
+      $type: textField
+      label: navText2
+      i18n: true
+    navText3:
+      $type: textField
+      label: navText3
+      i18n: true

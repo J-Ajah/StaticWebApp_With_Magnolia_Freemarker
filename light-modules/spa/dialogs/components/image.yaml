@@ -1,0 +1,9 @@
+label: Image
+form:
+  properties:
+    image:
+      label: image
+      $type: linkField
+      chooser:
+       workbenchChooser:
+        appName: dam-chooser

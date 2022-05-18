@@ -1,0 +1,4 @@
+title: about
+renderType: freemarker
+templateScript: /simple-web-app/templates/components/about.ftl
+dialog: simple-web-app:components/about

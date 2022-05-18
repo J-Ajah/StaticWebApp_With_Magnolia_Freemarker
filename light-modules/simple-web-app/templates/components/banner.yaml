@@ -1,0 +1,4 @@
+title: banner
+renderType: freemarker
+templateScript: /simple-web-app/templates/components/banner.ftl
+dialog: simple-web-app:components/banner

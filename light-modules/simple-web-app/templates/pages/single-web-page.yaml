@@ -1,0 +1,27 @@
+title: single-web-page
+templateScript: /simple-web-app/templates/pages/single-web-page.ftl 
+renderType: freemarker
+dialog: simple-web-app:pages/single-web-page
+visible: true
+areas:
+  main:
+    availableComponents:
+      header:
+        id: simple-web-app:components/header
+      banner:
+        id: simple-web-app:components/banner
+      about:
+        id: simple-web-app:components/about
+      offer:
+        id: simple-web-app:components/offer 
+      footer:
+        id: simple-web-app:components/footer
+  footer:
+    type: list
+    title: footer areas
+      
+
+
+
+   
+

@@ -1,0 +1,34 @@
+title: SPA Home
+dialog: spa:pages/Home
+# templateScript: /spa/webresources/index.html
+baseUrl: http://localhost:3000 
+routeTemplate: '{{@path}}'
+renderType: spa
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+areas:
+  main:
+    title: Main area
+    availableComponents:
+      text:
+        id: spa:components/Text
+      list:
+        id: spa:components/List
+      header:
+        id: spa:components/header
+      banner:
+        id: spa:components/banner
+      about: 
+        id: spa:components/about
+      offer:
+        id: spa:components/offer
+      image:
+        id: spa:components/image
+
+  footer:
+    title: Footer area
+    type: list
+    availableComponents:
+      footer:
+        id: spa:components/footer
+
+      

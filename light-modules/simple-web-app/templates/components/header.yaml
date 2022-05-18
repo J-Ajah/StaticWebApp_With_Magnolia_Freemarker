@@ -1,0 +1,4 @@
+title: header
+renderType: freemarker
+templateScript: /simple-web-app/templates/components/header.ftl
+dialog: simple-web-app:components/header
