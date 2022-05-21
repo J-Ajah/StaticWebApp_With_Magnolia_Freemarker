@@ -1,11 +1,12 @@
 import React from "react";
+import { magnoliaUrl } from "../public/config";
 
 const banner = (props) => {
   const { image, title } = props;
 
   const fewStyles = {
     backgroundColor: "#666666",
-    backgroundImage: `url(http://localhost:8080${image["@link"]})`,
+    backgroundImage: `url(${magnoliaUrl}${image["@link"]})`,
   };
 
   

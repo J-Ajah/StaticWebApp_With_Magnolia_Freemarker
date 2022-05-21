@@ -1,5 +1,6 @@
 import React from "react";
 import parser from "html-react-parser";
+import { magnoliaUrl } from "../public/config";
 
 
 const Offer = (props)=>{
@@ -13,7 +14,7 @@ const Offer = (props)=>{
     return(
         <div class="about offer" id="Services" style={bg}>
             <div class="about-imageContainer "> 
-                <img src={`http://localhost:8080${image["@link"]}`} class="about-img move"/>
+                <img src={`${magnoliaUrl}${image["@link"]}`} class="about-img move"/>
             </div>
             <div class="about-infoContainer">  
                 <div class="about-infoContent offer-details">

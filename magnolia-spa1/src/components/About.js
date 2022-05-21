@@ -1,5 +1,6 @@
 import React from "react";
 import parser from "html-react-parser";
+import { magnoliaUrl } from "../public/config";
 
 const About = (props)=>{
     const {title, aboutTitle, info, image} = props;
@@ -13,7 +14,7 @@ const About = (props)=>{
           </div>
         </div>
         <div class="about-imageContainer"> 
-            <img src={`http://localhost:8080${image['@link']}`} class="about-img"/>
+            <img src={`${magnoliaUrl}${image['@link']}`} class="about-img"/>
         </div>
       </div>
     )
